@@ -1,0 +1,63 @@
+<html>
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 1141px;
+	top: 218px;
+}
+-->
+</style>
+<center>
+<head>
+<font color="green" size="4">
+<h1><marquee> STUDENT DETAILS </marquee></h1>
+<title> STUDENT DETAILS </title>
+</head>
+</font>
+<font color="red" size="4">
+<body background="starfish.jpg">
+<div id="Layer1"><img src="college.jpg" width="76" height="66"></div>
+<form action="insert.php" method="post">
+NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="na1" type="text" required="required"><br><br>
+	ROLLNO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="rno1" type="text" required="required"><br><br>
+	COURSE  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select name="cr1">
+			<option>BSC CS</option>
+			<option>BSC IT</option>
+			<option>BSC PHYSICS</option>
+			<option>BSC MATHS</option>
+			<option>BSC CHEMISTRY</option>
+			<option>BSC ZOOLOGY</option>
+			<option>BSC BOTONY</option>
+			<option>BSC MICROBIOLOGY</option>
+			<option>BA TAMIL</option>
+			<option>BA ENGLISH</option>
+			<option>BA HISTORYL</option>
+			<option>BA ECONOMICS</option>
+			<option>BCOM</option>
+			<option>BCOM CA</option>
+		</select><br><br>
+	BALANCE DEPOSIT  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="bdp" type="text" required="required"><br><br>
+	SETTLEMENT TYPE  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select name="st">
+			<option>DD</option>
+			<option>CHECK</option>
+		</select><br><br>
+	
+		<input type="submit" value="insert">
+</form>
+	
+	
+<form action="setdisplay.php"method="post">
+		<input type="submit"value="display">
+</form>
+</font>
+</html>
+		
